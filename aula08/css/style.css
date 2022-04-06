@@ -1,51 +1,8 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
     border: 0px;
     box-sizing: border-box;
-}
-#conteudo{
-    width: 1500px;
-    height: 500px;
-    background-color: aqua;
-}
-
-.bkg-img{
-    width: inherit;
-    height: inherit;
-    border-radius: 90px;
-}
-#cabecalho{
-    width: 100%;
-    height: 90px;
-    background-color: black;
-}
-.conteudo{
-    width: 1500px;
-    height: inherit;
-}
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    transition: 2s;
-}
-#logo{
-    width: 200px;
-    height: 70px;
-    margin-right: 50px;
-    float: left;
-}
-#container_busca{
-    width: 450px;
-    height: 80px;
-}
-.clear{
-    clear: both;
-}
-h2, h1{
-    padding-top: 10px;
-    color: white;
-    margin-bottom: 10px;
+    /* overflow: hidden; */
 }
 figure{
     width: inherit;
@@ -56,43 +13,15 @@ figure{
     color: red;
 }
 
-#artista{
-    height: 30px;
-    width: 300px;
-}
-#btn_buscar{
-    height: 30px;
-    width: 80px;
-}
+
 .opacity{
-    width: inherit;
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding-top: 30px;
+    background-color:rgb(7, 18, 6);
 }
 
 .txt-center{
     text-align: center;
 }
 
-#dados_artista{
-    width: 100%;
-    height: 200px;
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: 0px;
-    background-position-y: -600px;
-
-}
-
-#container_img_artista{
-    width: 150px;
-    height: 150px;
-    border-radius: 90px;
-    position: absolute;
-    margin-top: 60px;
-}
 .visivel{
     display: block;
 }
@@ -100,16 +29,12 @@ figure{
 .container_conteudo{
     width: 100%;
     min-height: 1000px;
-    height: auto;
-    
-
+    height: auto;  
 }
 
 #nome_artista{
     width: 400px;
     height: 30px;
-    margin-left: 200px;
-    padding-top: 90px;
     font-size: 30px;
     color: white;
 }
@@ -118,8 +43,7 @@ figure{
     width: 100%;
     min-height: 800px;
     height: auto;
-    padding-top: 50px;
-    margin-bottom: 50px;
+
 }
 
 #musicas{
@@ -139,32 +63,26 @@ figure{
 }
 
 #tr_principal, #td_principal{
-    border: solid 2px rgb(7, 167, 1);
+    border: solid 2px rgb(0, 0, 0);
     transition: 2s;
 
-}
-
-tr{
-    height: 30px;
 }
 
 td{
     border: solid 1px white;
 }
 
-.td_musicas:hover{
+/* .td_musicas:hover{
     cursor: pointer;
-    color: rgb(7, 167, 1);
-}
+    color: rgb(0, 0, 0);
+} */
 
 #letra_da_musica{
     margin-left: 150px;
     min-width: 250px;
     max-width: 500px;
     width: auto;
-    min-height: 0px;
     height: auto;
-    /* background-color: salmon; */
     float: left;
     font-size: 20px;
 }
