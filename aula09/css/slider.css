@@ -1,0 +1,56 @@
+.slider{
+    position: relative;
+    height: 100%;
+    background-color: rgb(254, 129, 129);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider-button{
+    position: absolute;
+    font-size: 3rem;
+    color: transparent;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: all 1s;
+}
+
+#proximo{
+    right: 0;
+}
+
+.slider-item-container{
+    background-color: antiquewhite;
+    height: 100%;
+    display: flex;
+    gap: 1px;
+
+}
+.slider-button:hover{
+    background-color: #0005;
+    color: #fff;
+}
+
+.slider-item{
+    background-color: rgb(233, 167, 167);
+    width: 50vw;
+    height: 100%;
+    transition: all 1s;
+}
+
+.slider-item:first-child{
+    margin-left: -50vw;
+}
+
+.slider-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
